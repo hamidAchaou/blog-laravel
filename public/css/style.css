@@ -1,0 +1,268 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.navbar {
+  z-index: 999;
+}
+
+
+
+
+.bg-gray-700 {
+    background-color: #4a5568; 
+      color: #eee !important;
+  }
+
+  .color-gray-300 {
+    color: #a9b3c4; 
+  }
+
+  .color-gray-300:hover {
+    color: #dee4ee; 
+  }
+  /* ======================= style login ======================== */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-check {
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0069d9;
+  }
+
+  /* ======================== style regester =================== */
+  
+
+
+  /* ==================== style Hero ======================= */
+  .hero {
+    background: url('https://c4.wallpaperflare.com/wallpaper/347/523/673/nature-landscape-sunlight-forest-wallpaper-preview.jpg') center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    /* padding: 100px 0; */
+    text-align: center;
+    height: 550px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .hero a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 8px;
+    transition: background-color 0.7s ease;
+    transform: scale(1);
+    text-transform: capitalize;
+  }
+  
+  .hero a:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+
+  /* ======================= style Item Blog ===================== */
+  
+  .item-blog div img {
+    max-width: 100%;
+  }
+  
+  .item-blog div h2 {
+    font-weight: bold;
+    color: #4a5568;
+  }
+  
+  .item-blog div h5 {
+    font-weight: bold;
+    color: #747c8a;
+  }
+  
+  .item-blog div p {
+    color: #4a5568;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+
+  /* ==================== Blog Category ========================= */
+  .blog-categories {
+    /* background-color: #4a5568; */
+    background: url('https://c4.wallpaperflare.com/wallpaper/347/523/673/nature-landscape-sunlight-forest-wallpaper-preview.jpg') center center/cover;
+    background-attachment: fixed;
+  }
+  
+  .blog-categories h2 {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .blog-categories h6 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+
+  /* ============ Style Recents Posts =================================== */
+  .recents-posts .block-recentsPosts {
+    /* padding: 30px; */
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .recents-posts h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+ 
+  .recents-posts .block-recentsPosts {
+    background-color: #8f4b10;
+
+  }
+  
+  .recents-posts .block-recentsPosts p {
+    margin-bottom: 15px;
+    line-height: normal;
+  }
+  
+  .recents-posts .block-recentsPosts ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    background-color: #fff;
+  }
+  
+  .recents-posts .block-recentsPosts a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .recents-posts .block-recentsPosts li:hover {
+    background-color: #bf7903;
+  }
+  .recents-posts .block-recentsPosts li:hover a{
+    color: #eee;  
+  }
+
+  .recents-posts .btn-readMore:hover {
+    background-color: #fff;
+    color: #bf7903 !important;
+
+  }
+
+
+  /* ================================= style Page Blogs ========================= */
+  .hero-allPosts h1{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .content-posts h2 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #4a5568;
+    text-transform: capitalize;
+  }
+  
+  .content-posts h5 span{
+    color: #747c8a;
+    font-weight: 400;
+  }
+
+  .content-posts p {
+    line-height: 1.5; color: #333333;
+    text-align: justify;
+    font-size: 1rem;
+    color: #4a5568;
+  }
+
+.border-bottomPosts {
+  border-bottom: #747c8a;
+}
+
+.border-bottomPosts img {
+  height: 300px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ======================= style SHow Posts ================================ */
+
+.hero-showPosts .hero-img img {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-showPosts img {
+  /* height: 350px; */
+  background-size: cover;
+  background-position: center;
+}
+
+/* ========================= PAge Edit Post ====================================== */
+.edit-post h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.edit-post #title {
+  height: 60px;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.edit-post textarea {
+  height: 150px;
+}
+
+.edit-post label {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
